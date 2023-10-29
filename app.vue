@@ -4,5 +4,6 @@
       <Title>Lumberjack</Title>
     </Head>
     <Ustbar />
+    <Kayanresim />
   </div>
 </template>
