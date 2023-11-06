@@ -34,7 +34,7 @@
     "@nuxtjs/tailwindcss": "^6.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/vue": "^6.6.1",
-    "@types/node": "^18.11.0",
+    "@types/node": "^18.11.1",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",

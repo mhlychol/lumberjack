@@ -70,10 +70,11 @@ export default {
   }
 
   #banner-container img {
-    width: 100%;
+    width: 99.5%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s;
+    padding-left: 5px;
   }
 
   #prev-button,
@@ -95,6 +96,6 @@ export default {
   #prev-button img,
   #next-button img {
     width: 25px;
-    height: 40px;
+    height: 30px;
   }
   </style>

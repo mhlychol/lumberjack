@@ -1,6 +1,20 @@
 <script>
 export default {
   name: 'Bolum',
+  methods: {
+    toggleArama() {
+      const acilirArama = document.querySelector('.acilirarama')
+      const arama = document.querySelector('.arama')
+
+      if (acilirArama.style.display === 'none' || acilirArama.style.display === '') {
+        acilirArama.style.display = 'flex'
+        arama.style.display = 'none'
+      } else {
+        acilirArama.style.display = 'none'
+        arama.style.display = 'flex'
+      }
+    },
+  },
 }
 </script>
 
@@ -38,7 +52,12 @@ export default {
           <div class="menu-item">
             Kadın
             <div class="submenu">
-              <a href="#">Elbiseler</a>
+              <a href="#">Elbissadasdeler</a>
+              <a href="#">Ayakkabılar</a>
+              <!-- Diğer alt menüler -->
+            </div>
+            <div class="submenu">
+              <a href="#">asdas</a>
               <a href="#">Ayakkabılar</a>
               <!-- Diğer alt menüler -->
             </div>
@@ -93,14 +112,21 @@ export default {
           </div>
         </div>
         <div class="sepet-arama">
+          <div class="acilirarama" style="display: none;">
+            <div class="aramayeri">
+              <input type="text" placeholder="" class="arama-input">
+            </div>
+            <div class="aramayazi">
+              <button class="arabuton">
+                ARA
+              </button>
+            </div>
+          </div>
+          <div class="arama" @click="toggleArama">
+            <i class="fas fa-search" />
+          </div>
           <div class="sepet">
-            sepet
-          </div>
-          <div class="arama">
-            arama
-          </div>
-          <div class="acilirarama">
-            acilir
+            <i class="fas fa-shopping-bag" />
           </div>
         </div>
       </div>
@@ -229,7 +255,8 @@ button::after {
   border: 1px solid #ccc;
   padding: 10px;
   left: -130px;
-  width: 640px
+  width: 640px;
+  z-index: 1;
 }
 
 .menu-item:hover .submenu {
@@ -249,20 +276,89 @@ button::after {
 
 .sepet-arama {
   display: flex;
-  flex-wrap: wrap;
-  float: right;
+  align-items: center;
+  /* Dikey olarak ortalamak için */
+  justify-content: flex-end;
   flex: 0 0 16.66666667%;
-  flex-direction: row-reverse;
 }
-.sepet{
-  height: 100%;
-  background-image: "assets/component 1/sepet.jpg";
-}
-.arama{
-  height: 100%;
+
+.sepet {
+  display: flex;
+  /* İkonların içerisinde de flex kullanarak dikey ve yatayda ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+  align-items: center;
+  /* Dikey olarak ortalamak için */
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
 
 }
-.acilirarama{
-height: 100%;
+
+.sepet i {
+  font-size: 25px;
+}
+
+.arama {
+  display: flex;
+  /* İkonların içerisinde de flex kullanarak dikey ve yatayda ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+  align-items: center;
+  /* Dikey olarak ortalamak için */
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+
+}
+
+.arama i {
+  font-size: 20px;
+}
+
+.acilirarama {
+  flex-direction: row;
+  display: flex;
+  height: 30px;
+  padding-right: 20px;
+  width: 180px;
+}
+
+.aramayeri {
+  background-color: #ffffff;
+  height: 30px;
+  width: 120px;
+
+}
+
+.aramayazi {
+  height: 30px;
+  width: 40px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  /* İkonların içerisinde de flex kullanarak dikey ve yatayda ortalamak için */
+  padding-left: 10px;
+}
+
+.arabuton {
+  background-color: black;
+  text-decoration-color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  align-items: center;
+  font-weight: 800;
+}
+
+.arama-input {
+  height: 30px;
+  width: 120px;
+  background-color: white;
+  color: black;
+  /* Yazı rengi */
+  border: none;
+  /* Çerçeve yok */
+  outline: none;
+  margin-left: 1px;
 }
 </style>
