@@ -6141,15 +6141,15 @@ module.export = {
   "content": {
     "relative": false,
     "files": [
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/components/**/*.{vue,js,ts}",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/layouts/**/*.vue",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/pages/**/*.vue",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/composables/**/*.{js,ts}",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/plugins/**/*.{js,ts}",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/App.{js,ts,vue}",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/app.{js,ts,vue}",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/Error.{js,ts,vue}",
-      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack/error.{js,ts,vue}"
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/components/**/*.{vue,js,ts}",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/layouts/**/*.vue",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/pages/**/*.vue",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/composables/**/*.{js,ts}",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/plugins/**/*.{js,ts}",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/App.{js,ts,vue}",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/app.{js,ts,vue}",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/Error.{js,ts,vue}",
+      "D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/error.{js,ts,vue}"
     ],
     "extract": {},
     "transform": {}
