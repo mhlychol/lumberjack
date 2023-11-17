@@ -7,7 +7,7 @@
     <Ustbar />
     <Kayanresim />
     <Banner />
-    <!--  <Siparissorgu />
+    <!-- <Siparissorgu />
     <Uyelik />
     <Sepetdetay /> -->
     <Footer />

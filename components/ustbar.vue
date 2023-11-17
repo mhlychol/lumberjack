@@ -1,6 +1,16 @@
 <script>
+import Sepet from './Sepet.vue'
+
 export default {
   name: 'Bolum',
+  components: {
+    Sepet,
+  },
+  data() {
+    return {
+      showSepet: false,
+    }
+  },
   methods: {
     toggleArama() {
       const acilirArama = document.querySelector('.acilirarama')
@@ -13,6 +23,9 @@ export default {
         acilirArama.style.display = 'none'
         arama.style.display = 'flex'
       }
+    },
+    togglesepetackapa() {
+      this.showSepet = !this.showSepet
     },
   },
 }
@@ -125,9 +138,14 @@ export default {
           <div class="arama" @click="toggleArama">
             <i class="fas fa-search" />
           </div>
-          <div class="sepet">
+          <div class="sepet" @click="togglesepetackapa">
             <i class="fas fa-shopping-bag" />
+            <div class="sepeturunsayisi"> 2</div>
           </div>
+
+        </div>
+        <div class="acilirsepetcomponent" v-if="showSepet">
+          <Sepet />
         </div>
       </div>
     </div>
@@ -292,7 +310,7 @@ button::after {
   height: 30px;
   width: 30px;
   object-fit: cover;
-
+position: relative;
 }
 
 .sepet i {
@@ -360,5 +378,27 @@ button::after {
   /* Çerçeve yok */
   outline: none;
   margin-left: 1px;
+}
+.acilirsepetcomponent{
+  position: absolute;
+  right: 0;
+  top: 190px;
+  z-index: 1;
+}
+.sepeturunsayisi{
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  border-radius: 50%; /* Optional: Makes the background circle */
+  padding: 5px 8px; /* Adjust padding for better visibility */
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.arama:hover,
+.sepet:hover {
+  cursor: pointer;
 }
 </style>
