@@ -43,6 +43,7 @@ export default {
   letter-spacing: 1px;
   border: 2px solid #c2c2c2;
   border-radius: 1%;
+
 }
 
 .urunsayisi,
@@ -54,6 +55,7 @@ export default {
 .sepetbutonconteiner {
   text-align: center;
   padding: 10px 0 15px 0;
+
 }
 
 .sepetbuton {
@@ -65,6 +67,8 @@ export default {
   font-size: 14px;
 }
 .urunler{
+  display: flex;
+  flex-direction: column;
   padding: 5px 0 5px 0 ;
 }
 </style>

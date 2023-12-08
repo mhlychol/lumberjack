@@ -7,9 +7,9 @@
     <Ustbar />
     <Kayanresim />
     <Banner />
-    <!-- <Siparissorgu />
+     <Siparissorgu />
     <Uyelik />
-    <Sepetdetay /> -->
+    <Sepetdetay />
     <Footer />
   </div>
 </template>

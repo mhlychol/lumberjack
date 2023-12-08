@@ -48,6 +48,7 @@ export default {
         ADET: 1 BEDEN: 40
       </div>
     </div>
+    <div class="urunusil"><i class="far fa-trash-alt"></i></div>
   </div>
 </template>
 
@@ -70,7 +71,7 @@ export default {
 .bilgiler {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     padding: 15px;
 
 }
@@ -107,5 +108,12 @@ export default {
     color: black;
     padding: 5px 0 0 0;
     font-size: 12px;
+}
+.urunusil{
+  width: 10%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  padding-top: 15px;
 }
 </style>

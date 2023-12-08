@@ -144,7 +144,8 @@ export default {
           </div>
 
         </div>
-        <div class="acilirsepetcomponent" v-if="showSepet">
+        <div class="acilirsepetcomponent"  v-if="showSepet">
+          <div class="closewindow" @click="togglesepetackapa"><i class="fa fa-times" /></div>
           <Sepet />
         </div>
       </div>
@@ -400,5 +401,18 @@ position: relative;
 .arama:hover,
 .sepet:hover {
   cursor: pointer;
+}
+.closewindow{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #D2D2D2;
+  right: 0;
+  top: 0px;
+  z-index: 1;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight:600;
 }
 </style>
