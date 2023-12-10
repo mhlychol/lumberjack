@@ -46,7 +46,6 @@ import { Button } from 'ant-design-vue/es';
         <div class="siparisozetconteiner">
           <Sepetdetayurun />
           <Sepetdetayurun />
-          <Sepetdetayurun />
         </div>
       </div>
       <div class="sepetipaylasconteiner">
