@@ -1,27 +1,27 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'http';
 import { tmpdir } from 'os';
 import { join } from 'path';
 import { mkdirSync } from 'fs';
 import { parentPort, threadId } from 'worker_threads';
-import { provider, isWindows } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/std-env/dist/index.mjs';
-import { eventHandler, defineEventHandler, handleCacheHeaders, createEvent, createError, createApp, createRouter, lazyEventHandler, getQuery } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/h3/dist/index.mjs';
-import { z, parseDataAs, parseParamsAs, parseBodyAs } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/@sidebase/nuxt-parse/dist/index.mjs';
-import { createRenderer } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import devalue from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { renderToString } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/vue/server-renderer/index.mjs';
-import { parseURL, withQuery, joinURL } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/ufo/dist/index.mjs';
-import destr from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/destr/dist/index.mjs';
-import { snakeCase } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/scule/dist/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/ohmyfetch/dist/node.mjs';
-import { createRouter as createRouter$1 } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/radix3/dist/index.mjs';
-import { createCall, createFetch } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/hookable/dist/index.mjs';
-import { hash } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/ohash/dist/index.mjs';
-import { createStorage } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/unstorage/dist/drivers/fs.mjs';
-import { defineNitroPlugin } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/nitropack/dist/runtime/plugin.mjs';
-import { BaseEntity, PrimaryGeneratedColumn, Column, Entity, DataSource } from 'file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/typeorm/index.mjs';
+import { provider, isWindows } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/std-env/dist/index.mjs';
+import { eventHandler, defineEventHandler, handleCacheHeaders, createEvent, createError, createApp, createRouter, lazyEventHandler, getQuery } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/h3/dist/index.mjs';
+import { z, parseDataAs, parseParamsAs, parseBodyAs } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/@sidebase/nuxt-parse/dist/index.mjs';
+import { createRenderer } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import devalue from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import { renderToString } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/vue/server-renderer/index.mjs';
+import { parseURL, withQuery, joinURL } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/ufo/dist/index.mjs';
+import destr from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/destr/dist/index.mjs';
+import { snakeCase } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/scule/dist/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/ohmyfetch/dist/node.mjs';
+import { createRouter as createRouter$1 } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/radix3/dist/index.mjs';
+import { createCall, createFetch } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/hookable/dist/index.mjs';
+import { hash } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/ohash/dist/index.mjs';
+import { createStorage } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/unstorage/dist/drivers/fs.mjs';
+import { defineNitroPlugin } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/nitropack/dist/runtime/plugin.mjs';
+import { BaseEntity, PrimaryGeneratedColumn, Column, Entity, DataSource } from 'file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/typeorm/index.mjs';
 
 const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routes":{},"envPrefix":"NUXT_"},"public":{}};
 const ENV_PREFIX = "NITRO_";
@@ -80,7 +80,7 @@ function timingMiddleware(_req, res, next) {
   next();
 }
 
-const serverAssets = [{"baseName":"server","dir":"D:/Melih/ders/2023 güz/web prog/lumberjack/lumberjack2/lumberjack/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"D:/Melih/ders/2023 güz/lumberjack2/lumberjack/server/assets"}];
 
 const assets = createStorage();
 
@@ -94,10 +94,10 @@ const useStorage = () => storage;
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\web prog\\lumberjack\\lumberjack2\\lumberjack","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\web prog\\lumberjack\\lumberjack2\\lumberjack\\server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\web prog\\lumberjack\\lumberjack2\\lumberjack\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\web prog\\lumberjack\\lumberjack2\\lumberjack\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\lumberjack2\\lumberjack","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\lumberjack2\\lumberjack\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\lumberjack2\\lumberjack\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Melih\\ders\\2023 güz\\lumberjack2\\lumberjack\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
@@ -388,10 +388,10 @@ const initialize = async () => {
   console.log("DB: Successfully initialized database connection");
 };
 
-const _4XoNEPLDNu = defineNitroPlugin(async () => initialize());
+const _6q0C8n1v58 = defineNitroPlugin(async () => initialize());
 
 const plugins = [
-  _4XoNEPLDNu
+  _6q0C8n1v58
 ];
 
 function hasReqHeader(req, header, includes) {
@@ -451,7 +451,7 @@ const errorHandler = (async function errorhandler(error, event) {
   const isErrorPage = event.req.url?.startsWith("/__nuxt_error");
   let html = !isErrorPage ? await $fetch(withQuery("/__nuxt_error", errorObject)).catch(() => null) : null;
   if (!html) {
-    const { template } = await import('file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/@nuxt/ui-templates/dist/templates/error-dev.mjs') ;
+    const { template } = await import('file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/@nuxt/ui-templates/dist/templates/error-dev.mjs') ;
     {
       errorObject.description = errorObject.message;
     }
@@ -461,19 +461,19 @@ const errorHandler = (async function errorhandler(error, event) {
   event.res.end(html);
 });
 
-const _lazy_zJYDNW = () => Promise.resolve().then(function () { return healthz_get$1; });
-const _lazy_nqTqp3 = () => Promise.resolve().then(function () { return index$1; });
-const _lazy_ttQ8RQ = () => Promise.resolve().then(function () { return _id__patch$1; });
-const _lazy_ha4d4t = () => Promise.resolve().then(function () { return _id__get$1; });
-const _lazy_eZLX98 = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_oo1117 = () => Promise.resolve().then(function () { return healthz_get$1; });
+const _lazy_DdbmWG = () => Promise.resolve().then(function () { return index$1; });
+const _lazy_Gv7ymn = () => Promise.resolve().then(function () { return _id__patch$1; });
+const _lazy_goge6k = () => Promise.resolve().then(function () { return _id__get$1; });
+const _lazy_pU2mRg = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/api/healthz', handler: _lazy_zJYDNW, lazy: true, middleware: false, method: "get" },
-  { route: '/api/example', handler: _lazy_nqTqp3, lazy: true, middleware: false, method: undefined },
-  { route: '/api/example/:id', handler: _lazy_ttQ8RQ, lazy: true, middleware: false, method: "patch" },
-  { route: '/api/example/:id', handler: _lazy_ha4d4t, lazy: true, middleware: false, method: "get" },
-  { route: '/__nuxt_error', handler: _lazy_eZLX98, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_eZLX98, lazy: true, middleware: false, method: undefined }
+  { route: '/api/healthz', handler: _lazy_oo1117, lazy: true, middleware: false, method: "get" },
+  { route: '/api/example', handler: _lazy_DdbmWG, lazy: true, middleware: false, method: undefined },
+  { route: '/api/example/:id', handler: _lazy_Gv7ymn, lazy: true, middleware: false, method: "patch" },
+  { route: '/api/example/:id', handler: _lazy_goge6k, lazy: true, middleware: false, method: "get" },
+  { route: '/__nuxt_error', handler: _lazy_pU2mRg, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_pU2mRg, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -612,8 +612,8 @@ function publicAssetsURL(...path) {
   return path.length ? joinURL(publicBase, ...path) : publicBase;
 }
 
-const getClientManifest = () => import('file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getServerEntry = () => import('file://D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file://D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {

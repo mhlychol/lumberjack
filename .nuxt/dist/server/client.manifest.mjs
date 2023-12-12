@@ -1,1 +1,1 @@
-export { default } from "file:///D:/Melih/ders/2023%20g%C3%BCz/web%20prog/lumberjack/lumberjack2/lumberjack/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///D:/Melih/ders/2023%20g%C3%BCz/lumberjack2/lumberjack/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
